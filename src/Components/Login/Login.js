@@ -1,8 +1,10 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom'
 import Logo from '../../olx-logo.png';
 import './Login.css';
 
 function Login({email,password,handleLogin,handleEmail,handlePassword}) {
+  const navigate = useNavigate()
   return (
     <div>
       <div className="loginParentDiv">
@@ -33,7 +35,7 @@ function Login({email,password,handleLogin,handleEmail,handlePassword}) {
           <br />
           <button type='submit'>Login</button>
         </form>
-        <a>Signup</a>
+        <a><span onClick={()=>{navigate('/signup')}}>Signup</span></a>
       </div>
     </div>
   );
