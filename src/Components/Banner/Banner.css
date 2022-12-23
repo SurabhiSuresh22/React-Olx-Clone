@@ -1,14 +1,10 @@
 .bannerParentDiv {
   padding-top: 4em;
 }
-.bannerParentDiv .bannerChildDiv {
-}
+
 .bannerParentDiv .bannerChildDiv .menuBar {
   display: flex;
   padding: 10px 16px 10px 16px;
-}
-
-.bannerParentDiv .bannerChildDiv .menuBar span {
 }
 
 .bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
@@ -16,8 +12,6 @@
   font-weight: bolder;
 }
 
-.bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions {
-}
 .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
   padding: 10px;
 }

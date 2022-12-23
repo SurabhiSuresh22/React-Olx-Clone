@@ -1,4 +1,4 @@
-import React, {useState,useContext} from 'react';
+import React, {useContext} from 'react';
 import './Create.css';
 import Header from '../Header/Header';
 import { FirebaseContext,AuthContext } from '../../store/Context';

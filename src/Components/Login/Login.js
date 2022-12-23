@@ -8,7 +8,7 @@ function Login({email,password,handleLogin,handleEmail,handlePassword}) {
   return (
     <div>
       <div className="loginParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        <img width="200px" height="200px" src={Logo} alt=""></img>
         <form onSubmit={handleLogin}>
           <label htmlFor="fname">Email</label>
           <br />
@@ -35,7 +35,7 @@ function Login({email,password,handleLogin,handleEmail,handlePassword}) {
           <br />
           <button type='submit'>Login</button>
         </form>
-        <a><span onClick={()=>{navigate('/signup')}}>Signup</span></a>
+        <><span onClick={()=>{navigate('/signup')}}>Signup</span></>
       </div>
     </div>
   );

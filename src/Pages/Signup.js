@@ -1,7 +1,6 @@
 import React,{useState,useContext} from 'react';
 import Signup from '../Components/Signup/Signup';
 import {FirebaseContext} from '../store/Context';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
 import {useNavigate} from 'react-router-dom'
 
 function SignupPage() {
