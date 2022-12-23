@@ -20,7 +20,7 @@ useEffect(()=>{
     })
     setProducts(allPost)
   })
-},[])
+})
 
   return (
     <div className="postParentDiv">

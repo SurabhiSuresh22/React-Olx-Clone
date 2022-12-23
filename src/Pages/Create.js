@@ -1,11 +1,10 @@
-import React,{useState,useContext} from 'react';
+import React,{useState} from 'react';
 import Header from '../Components/Header/Header';
 import Create from '../Components/Create/Create';
 import { useNavigate } from 'react-router-dom';
 
 
 const CreatePage =() => {
-  const navigate = useNavigate()
   const [name,setName] = useState('');
   const [category,setCategory] = useState('');
   const [price,setPrice] = useState('');
