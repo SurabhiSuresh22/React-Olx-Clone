@@ -35,7 +35,8 @@ function Login({email,password,handleLogin,handleEmail,handlePassword}) {
           <br />
           <button type='submit'>Login</button>
         </form>
-        <><span onClick={()=>{navigate('/signup')}}>Signup</span></>
+        <p style={{display: 'flex',
+        alignItems: 'center',justifyContent: 'center'}} ><span onClick={()=>{navigate('/signup')}}>Signup</span></p>
       </div>
     </div>
   );
